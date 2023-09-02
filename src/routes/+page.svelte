@@ -15,7 +15,7 @@
       <button class="btn btn-primary" on:click={() => window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' })}>
         View Projects
       </button>
-      <a href="https://github. com/jaydrennan" target="_blank">
+      <a href="https://github.com/jaydrennan" target="_blank">
         <img src="/github.svg" alt="GitHub" class="w-6 h-6"/> 
       </a>
       <a href="https://www.linkedin.com/in/jay-drennan/" target="_blank">
@@ -47,7 +47,7 @@
           <div class="bg-white rounded-lg shadow-md p-8 col-start-2 row-start-2">
             <h3 class="text-4xl font-bold text-gray-800 mb-2">Portfolio Website</h3>
             <p class="text-gray-700 mb-4">A responsive portfolio website to present an individual's work, skills, and learning.</p>
-            <a href="https://github.com/jaydrennan/showcase" target="_blank" class="btn btn-accent mb-2">View on GitHub</a>
+            <a href="https://github.com/jaydrennan/public_profile" target="_blank" class="btn btn-accent mb-2">View on GitHub</a>
             <p class="text-gray-700">Tech used: Svelte, SvelteKit, Tailwind, DaisyUI, Docker, EC2</p>
           </div>
           <!-- Project 3 -->
