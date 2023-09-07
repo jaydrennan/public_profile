@@ -1,4 +1,6 @@
 <script>
+  import LogoHelix from '$lib/LogoHelix.svelte';
+
   import {page} from '$app/stores';
   let isNightMode = false;
 
@@ -26,6 +28,7 @@
           <li><a>Item 3</a></li>
         </ul>
       </div>
+      <LogoHelix />
       <a href="/" class="btn btn-ghost normal-case text-xl">Jay</a>
     </div>
     <div class="navbar-center hidden lg:flex">
