@@ -14,7 +14,7 @@
             <div class="p-6">
               <h3 class="text-2xl font-bold text-gray-800 mb-2">Video to Text Summary</h3>
               <p class="text-gray-600 mb-4">A feature added to ImaginAIry python package to summarize eventful moments from video.</p>
-              <a href="https://github.com/jaydrennan/project1" target="_blank" class="btn btn-primary mb-2">View on GitHub</a>
+              <a href="https://github.com/brycedrennan/imaginAIry/pull/358" target="_blank" class="btn btn-primary mb-2">View on GitHub</a>
               <p class="text-gray-600">Tech used: Python, ChatGPT, ImaginAIry</p>
             </div>
           </div>
@@ -25,7 +25,7 @@
             <div class="p-6">
               <h3 class="text-2xl font-bold text-gray-800 mb-2">Portfolio Website</h3>
               <p class="text-gray-600 mb-4">A responsive portfolio website to present an individual's work, skills, and learning.</p>
-              <a href="https://github.com/jaydrennan/project2" target="_blank" class="btn btn-primary mb-2">View on GitHub</a>
+              <a href="https://github.com/jaydrennan/public_profile" target="_blank" class="btn btn-primary mb-2">View on GitHub</a>
               <p class="text-gray-600">Tech used: Svelte, SvelteKit, Tailwind, DaisyUI, Docker, EC2</p>
             </div>
           </div>
