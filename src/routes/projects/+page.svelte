@@ -36,8 +36,8 @@
             <div class="p-6">
               <h3 class="text-2xl font-bold text-gray-800 mb-2">Image Classifier</h3>
               <p class="text-gray-600 mb-4">Project uses FastAI to collect data, organize it, and train to recognize image content.</p>
-              <a href="https://github.com/jaydrennan/project3" target="_blank" class="btn btn-primary mb-2">View on GitHub</a>
-              <p class="text-gray-600">Tech used: Python, FastAI, Google Collab</p>
+              <a href="https://jaydrennan.github.io/FastAI_ch_1" target="_blank" class="btn btn-primary mb-2">View on GitHub</a>
+              <p class="text-gray-600">Tech used: Python, FastAI, Google Collab, Jupyter Notebook</p>
             </div>
           </div>
         </div>
