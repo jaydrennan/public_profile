@@ -3,8 +3,8 @@
 <div class="flex justify-center h-screen ">
   <div class="overflow-x-auto h-200 mt-8">
     <div class="mt-16"> <!-- Added a margin-top class to move everything down -->
-      <h1 class="text-4xl md:text-6xl font-bold mb-4 text-center">Python Tools</h1>
-      <h2 class="text-xl md:text-2xl mb-4 text-center">A collection of useful Python tools for development, AI, and API creation</h2>
+      <h2 class="text-4xl md:text-6xl font-bold mb-4 text-center">Python Tools</h2>
+      <h3 class="text-xl md:text-2xl mb-4 text-center">A collection of useful Python tools for development, AI, and API's</h3>
       <table class="table table-zebra table-pin-rows mx-auto">
       <thead class="bg-primary">
         <tr>
