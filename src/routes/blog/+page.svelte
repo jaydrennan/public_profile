@@ -1,5 +1,4 @@
 <script>
-    import Navbar from "$lib/Navbar.svelte";
   import { onMount } from 'svelte';
   let message = '';
   
@@ -8,7 +7,6 @@
   });
 </script>
 
-<Navbar/>
 
 <main class="flex items-center justify-center h-screen bg-gray-100">
   <div class="text-center">

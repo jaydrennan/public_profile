@@ -1,10 +1,4 @@
-<script>
-  import Navbar from "$lib/Navbar.svelte";
-
-</script>
-<Navbar/>
-
-<div class="h-screen bg-base-200">
+<div class="h-screen mt-12 bg-base-200">
     <div class="container mx-auto px-6 py-8">
       <h2 class="text-4xl font-bold text-center text-gray-800 mb-8">Projects</h2>
       <div class="flex flex-wrap -mx-6">
