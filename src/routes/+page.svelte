@@ -1,6 +1,38 @@
 <script>
     import Helix from "$lib/Helix.svelte";
+    import { onMount } from 'svelte';
     import { fly } from "svelte/transition";
+
+
+    let blogPosts = [
+        {
+            title: 'Sort Python Lists by Complex Criteria',
+            excerpt: 'Learn how to sort lists with complex objects, or by multiple criteria.',
+            link: 'https://jaydrennan.github.io/sort_by_complex_criteria',
+        },
+        {
+            title: 'Write Debug Friendly Python Wrappers',
+            excerpt: 'Learn how to avoid unwanted wrapper behaviors when debugging.',
+            link: 'https://jaydrennan.github.io/use_functools_wraps_for_wrappers',
+        },
+        {
+            title: 'How to Loop with Two Iterators in Python',
+            excerpt: 'Learn how to loop through two lists simultaneously in Python.',
+            link: 'https://jaydrennan.github.io/parallel_processing_with_zip.html',
+        },
+    ];
+    let showPosts = false;
+
+    onMount(() => {
+        const blogSection = document.getElementById('blog-section');
+        window.addEventListener('scroll', () => {
+            const rect = blogSection.getBoundingClientRect();
+            if (rect.top < window.innerHeight && rect.bottom > 0) {
+                showPosts = true;
+            }
+        });
+    });
+
 
 </script>
 
@@ -63,4 +95,58 @@
     </div>
   </div>
 </div>
+
+
+<!-- Blog Posts Section -->
+<div id="blog-section" class="bg-base-100 p-16">
+  <div class="container mx-auto py-16">
+
+    <!-- Title -->
+    <h2 class="text-4xl md:text-6xl font-bold text-center text-gray-800 mb-16 underline decoration-pink-400">Recent Blog Posts</h2>
+
+    <!-- Content: Blog Posts and Helix Component -->
+    <div class="flex flex-col md:flex-row items-center justify-center"> <!-- Changed to justify-center -->
+
+      <!-- Blog Posts on Left Side -->
+      <div class="grid grid-cols-1 gap-16 mb-8 md:mb-0 md:mr-6 w-full md:w-3/12"> <!-- Added width constraints -->
+          {#each blogPosts.slice(0,2) as post, i (post.title)}
+              {#if showPosts}
+                  <div class="bg-white rounded-lg shadow-lg p-8 hover:shadow-xl transform transition-transform duration-300 hover:-translate-y-2"
+                       transition:fly="{{ y: 50, duration: 300, delay: i * 100 }}">
+                      <h3 class="text-2xl md:text-3xl font-semibold text-gray-800 mb-4">{post.title}</h3>
+                      <p class="text-gray-700 mb-4">{post.excerpt}</p>
+                      <a href={post.link} class="btn btn-accent">Read More</a>
+                  </div>
+              {/if}
+          {/each}
+      </div>
+
+      <!-- Helix Component -->
+      <div class="flex justify-center "> <!-- Added horizontal margins for spacing -->
+          <Helix />
+      </div>
+
+      <!-- Blog Posts on Right Side -->
+      <div class="grid grid-cols-1 gap-16 md:ml-8 w-full md:w-3/12"> <!-- Added width constraints -->
+          {#each blogPosts.slice(2,4) as post, i (post.title)}
+              {#if showPosts}
+                  <div class="bg-white rounded-lg shadow-lg p-8 hover:shadow-xl transform transition-transform duration-300 hover:-translate-y-2"
+                       transition:fly="{{ y: 50, duration: 300, delay: i * 100 }}">
+                      <h3 class="text-2xl md:text-3xl font-semibold text-gray-800 mb-4">{post.title}</h3>
+                      <p class="text-gray-700 mb-4">{post.excerpt}</p>
+                      <a href={post.link} class="btn btn-accent">Read More</a>
+                  </div>
+              {/if}
+          {/each}
+      </div>
+
+    </div>
+
+    <div class="flex justify-center mt-8"> <!-- Increased margin-top -->
+      <a href="/blog" class="btn btn-secondary">View More</a>
+    </div>
+
+  </div>
+</div>
+
 
