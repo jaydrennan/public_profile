@@ -13,7 +13,7 @@
       </thead>
       <tbody>
         <tr><td><a href="https://learnpythonthehardway.org/">Learn Python The Hard Way</a></td><td>Start here for learning Python basics</td></tr>
-        <tr><td><a href="https://effectivepython.com/">Effective Python</a></td><td>Beyond the basics, python tips</td></tr>
+        <tr><td><a href="https://effectivepython.com/">Effective Python: 90 Specific Ways to Write Better Python</a></td><td>Beyond the basics, python tips</td></tr>
         <tr><td><a href="https://github.com/satwikkansal/wtfpython">wtfpython</a></td><td>Learn how python works under the hood through snippets with surpising behaviour</td></tr>
 
       </tbody>
@@ -23,7 +23,7 @@
         </tr>
       </thead>
       <tbody>
-        <tr><td><a href="https://www.fast.ai/">FastAI</a></td><td>Make's AI easy.  Great place to start for learning AI. Free textbook or youtube course.</td></tr>
+        <tr><td><a href="https://www.fast.ai/">FastAI</a></td><td>Make's creating AI fast and easy.  Great place to start learning. Free textbook or youtube course.</td></tr>
       </tbody>
       <thead>
         <tr>
