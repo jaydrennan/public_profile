@@ -98,7 +98,7 @@
 
 
 <!-- Blog Posts Section -->
-<div id="blog-section" class="bg-base-100 p-16">
+<div id="blog-section" class="bg-base-100">
   <div class="container mx-auto py-16">
 
     <!-- Title -->
@@ -108,7 +108,7 @@
     <div class="flex flex-col md:flex-row items-center justify-center"> <!-- Changed to justify-center -->
 
       <!-- Blog Posts on Left Side -->
-      <div class="grid grid-cols-1 gap-16 mb-8 md:mb-0 md:mr-6 w-full md:w-3/12"> <!-- Added width constraints -->
+      <div class="grid grid-cols-1 gap-16 mb-8 md:mb-0 md:mr-2 w-full md:w-3/12"> <!-- Added width constraints -->
           {#each blogPosts.slice(0,2) as post, i (post.title)}
               {#if showPosts}
                   <div class="bg-white rounded-lg shadow-lg p-8 hover:shadow-xl transform transition-transform duration-300 hover:-translate-y-2"
@@ -127,7 +127,7 @@
       </div>
 
       <!-- Blog Posts on Right Side -->
-      <div class="grid grid-cols-1 gap-16 md:ml-8 w-full md:w-3/12"> <!-- Added width constraints -->
+      <div class="grid grid-cols-1 md:ml-8 w-full md:w-3/12"> <!-- Added width constraints -->
           {#each blogPosts.slice(2,4) as post, i (post.title)}
               {#if showPosts}
                   <div class="bg-white rounded-lg shadow-lg p-8 hover:shadow-xl transform transition-transform duration-300 hover:-translate-y-2"
