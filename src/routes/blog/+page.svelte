@@ -24,7 +24,7 @@
 </script>
 
 <!-- Main Blog Page Layout -->
-<div class="bg-base-200 mt-10 p-6">
+<div class="h-screen bg-base-200 mt-10 p-6">
   <div class="container mx-auto px-10 py-8">
     <h2 class="text-4xl md:text-6xl font-bold text-center text-gray-800 mb-8 underline decoration-pink-400">Blog Posts</h2>
 
