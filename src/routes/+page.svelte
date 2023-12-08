@@ -74,11 +74,11 @@
         </div>
         <!-- Project 2 -->
         <div class="bg-white rounded-lg shadow-md p-12"> <!-- Increased padding -->
-          <img src="/portfolio_website.png" alt="Picture of Portfolio Website" class="w-full h-1/2 object-cover border-2 border-black mb-8"> <!-- Increased margin-bottom -->
-          <h3 class="text-2xl md:text-3xl font-semibold text-gray-800 mb-8">Portfolio Website</h3> <!-- Increased margin-bottom -->
-          <p class="text-gray-700 mb-8">A responsive portfolio website to present an individual's work, skills, and learning.</p> <!-- Increased margin-bottom -->
+          <img src="/financial_ai.png" alt="Picture of Portfolio Website" class="w-full h-1/2 object-cover border-2 border-black mb-8"> <!-- Increased margin-bottom -->
+          <h3 class="text-2xl md:text-3xl font-semibold text-gray-800 mb-8">AI Financial Advisor</h3> <!-- Increased margin-bottom -->
+          <p class="text-gray-700 mb-8">Web interface for conversing with AI version of one of my favorite financial advisors.</p> <!-- Increased margin-bottom -->
           <a href="https://github.com/jaydrennan/public_profile" target="_blank" class="btn btn-accent mb-8">View on GitHub</a> <!-- Increased margin-bottom -->
-          <p class="text-gray-700 font-bold">Tech: Svelte, SvelteKit, Tailwind, DaisyUI, Docker, EC2</p> <!-- Made the tech part bold -->
+          <p class="text-gray-700 font-bold">Tech: Python, OpenAI, FastAPI, Tailwind</p> <!-- Made the tech part bold -->
         </div>
         <!-- Project 3 -->
         <div class="bg-white rounded-lg shadow-md p-12"> <!-- Increased padding -->

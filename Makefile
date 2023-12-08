@@ -6,3 +6,4 @@ build_prod:
 
 run_prod: build_prod
 	docker run -p 3000:3000 public_profile
+	
