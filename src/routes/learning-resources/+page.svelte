@@ -24,6 +24,7 @@
       </thead>
       <tbody>
         <tr><td><a href="https://www.fast.ai/">FastAI</a></td><td>Make's creating AI fast and easy.  Great place to start learning. Free textbook or youtube course.</td></tr>
+        <tr><td><a href="https://d2l.ai/index.html">Dive into Deep Learning</a></td><td>Interactive deep learning book with code, math, and discussions. Personally find it very approachable</td></tr>
       </tbody>
       <thead>
         <tr>
@@ -32,6 +33,14 @@
       </thead>
       <tbody>
         <tr><td><a href="https://pythonspeed.com/docker/">pythonspeed.com</a></td><td>Basics and beyond for production quality docker containerization with an emphasis on Python</td></tr>
+      </tbody>
+      <thead>
+        <tr>
+          <th class="underline text-secondary">Data Engineering</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td><a href="https://www.dedp.online/about-this-book.html">Data Engineering Design Patterns</a></td><td>Well written overview of history and modern data engineering practices.</td></tr>
       </tbody>
       <thead>
         <tr>
