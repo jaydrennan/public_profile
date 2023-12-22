@@ -21,7 +21,7 @@
         <tr><td><a href="https://github.com/gruns/icecream">Icecream</a></td><td>Use instead of Print() when debugging, creates colored output</td></tr>
         <tr><td><a href="https://sqlmodel.tiangolo.com/">SQLModel</a></td><td>Easy to use library for interacting with SQL databases</td></tr>
         <tr><td><a href="https://pypi.org/project/pycln/">Pycln</a></td><td>Removes unused imports</td></tr>
-
+        <tr><td><a href="https://squidfunk.github.io/mkdocs-material/">Materials for Mkdocs</a></td><td>Great for creating website to host documentation for an package or api</td></tr>
       </tbody>
       <thead>
         <tr>
