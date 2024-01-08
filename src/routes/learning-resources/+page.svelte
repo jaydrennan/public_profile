@@ -42,6 +42,9 @@
       <tbody>
         <tr><td><a href="https://www.dedp.online/about-this-book.html">Data Engineering Design Patterns</a></td><td>Well written overview of history and modern data engineering practices.</td></tr>
       </tbody>
+      <tbody>
+        <tr><td><a href="https://www.amazon.com/Fundamentals-Data-Engineering-Robust-Systems/dp/1098108302/ref=sr_1_3?crid=NFZJVSQGSQ2M&keywords=data+engineering&qid=1704696447&sprefix=data+e%2Caps%2C146&sr=8-3">Fundamentals of Data Engineering</a></td><td>Best place to start for a comprehensive overview.</td></tr>
+      </tbody>
       <thead>
         <tr>
           <th class="underline text-secondary">Devops</th>
@@ -57,6 +60,14 @@
       </thead>
       <tbody>
         <tr><td><a href="https://roadmap.sh/roadmaps">roadmap.sh</a></td><td>Website that gives roadmap and resources of what you should know to be in DevOps, Frontend, Backend, AI, and more.</td></tr>
+      </tbody>
+            <thead>
+        <tr>
+          <th class="underline text-secondary">Rust</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td><a href="https://www.amazon.com/Hands-Rust-Effective-Learning-Development/dp/1680508164/ref=sr_1_1?crid=NYTUL7L9VZRT&keywords=hands+on+rust&qid=1704696338&sprefix=hands+on+rus%2Caps%2C154&sr=8-1">Hands-on Rust</a></td><td>Fun way to learn Rust by doing creating 2d Games.</td></tr>
       </tbody>
       </table>
     </div>

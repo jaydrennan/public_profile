@@ -12,10 +12,9 @@
         </tr>
       </thead>
       <tbody>
-        <tr><td><a href="https://github.com/psf/black">Black</a></td><td>Safely auto format your code</td></tr>
         <tr><td><a href="https://docs.pytest.org/en/7.4.x/">Pytest</a></td><td>Simple testing framework for Python</td></tr>
         <tr><td><a href="https://docs.pydantic.dev/latest/">Pydantic</a></td><td>Data validation using Python type annotations</td></tr>
-        <tr><td><a href="https://github.com/astral-sh/ruff">Ruff</a></td><td>Incredibly fast python linter</td></tr>
+        <tr><td><a href="https://github.com/astral-sh/ruff">Ruff</a></td><td>Incredibly fast python linter and formatter</td></tr>
         <tr><td><a href="https://coverage.readthedocs.io/en/7.3.1/">Coverage</a></td><td>Code coverage measurement for Python</td></tr>
         <tr><td><a href="https://pypi.org/project/isort/">Isort</a></td><td>Automatically organize imports according to PEP8</td></tr>
         <tr><td><a href="https://github.com/gruns/icecream">Icecream</a></td><td>Use instead of Print() when debugging, creates colored output</td></tr>
