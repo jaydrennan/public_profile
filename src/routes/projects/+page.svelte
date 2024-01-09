@@ -36,6 +36,41 @@
           </div>
         </div>
       </div>
+      <div class="flex flex-wrap -mx-6">
+        <!-- Project 4 -->
+        <div class="w-full md:w-1/2 lg:w-1/3 px-6 mb-6">
+          <div class="bg-white rounded-lg shadow-md">
+            <div class="p-6">
+              <h3 class="text-2xl font-bold text-gray-800 mb-2">Flappy Dragon</h3>
+              <p class="text-gray-600 mb-4">Flappy bird like project using Rust.</p>
+              <a href="https://github.com/brycedrennan/imaginAIry/pull/358" target="_blank" class="btn btn-primary mb-2">View on GitHub</a>
+              <p class="text-gray-600">Tech used: Rust</p>
+            </div>
+          </div>
+        </div>
+        <!-- Project 2 -->
+        <div class="w-full md:w-1/2 lg:w-1/3 px-6 mb-6">
+          <div class="bg-white rounded-lg shadow-md">
+            <div class="p-6">
+              <h3 class="text-2xl font-bold text-gray-800 mb-2">Financial AI Personality</h3>
+              <p class="text-gray-600 mb-4">Gathered, transformed, and fine tuned chatGPT-3.5-turbo to replicate Financial Advisor persona.</p>
+              <a href="https://github.com/jaydrennan/public_profile" target="_blank" class="btn btn-primary mb-2">View on GitHub</a>
+              <p class="text-gray-600">Tech used: Python, Tailwind, DaisyUI, Docker, FastAPI</p>
+            </div>
+          </div>
+        </div>
+        <!-- Project 3 -->
+        <div class="w-full md:w-1/2 lg:w-1/3 px-6 mb-6">
+          <div class="bg-white rounded-lg shadow-md">
+            <div class="p-6">
+              <h3 class="text-2xl font-bold text-gray-800 mb-2">Commercial Identifier</h3>
+              <p class="text-gray-600 mb-4">Project uses FastAI to collect data, organize it, and train to recognize image content.</p>
+              <a href="https://jaydrennan.github.io/FastAI_ch_1" target="_blank" class="btn btn-primary mb-2">View on GitHub</a>
+              <p class="text-gray-600">Tech used: Python, FastAPI, ChatGPT API, Docker, ImaginAIry, Tailwind</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
   
